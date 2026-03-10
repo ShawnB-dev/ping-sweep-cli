@@ -20,7 +20,15 @@ python3 ping_sweep.py
 
 出力例：
 ```markdown
-=== Ping Sweep: 192.168.1.0/24 === [+] 192.168.1.1 is alive [-] 192.168.1.2 is down ... === Summary === Total hosts: 254 Alive: 12 Down: 242
+=== Ping Sweep: 192.168.1.0/24 === 
+[+] 192.168.1.1 is alive 
+[-] 192.168.1.2 is down 
+... 
+
+=== Summary === 
+Total hosts: 254 
+Alive: 12 
+Down: 242
 ```
 
 ---

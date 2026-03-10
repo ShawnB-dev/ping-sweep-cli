@@ -29,7 +29,15 @@ Enter a subnet / サブネットを入力：
 
 ## Output Example / 出力例
 ```markdown
-[+] 192.168.1.1 is alive [-] 192.168.1.2 is down
+=== Ping Sweep: 192.168.1.0/24 === 
+[+] 192.168.1.1 is alive 
+[-] 192.168.1.2 is down 
+... 
+
+=== Summary === 
+Total hosts: 254 
+Alive: 12 
+Down: 242
 ```
 
 
